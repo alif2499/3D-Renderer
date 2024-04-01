@@ -1,34 +1,3 @@
-// Default app creation code
-
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-// Merged code from online to render 3D data 
-
 import Box from "@mui/material/Box";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import AppBarTop from "./Components/AppBarTop";
@@ -74,29 +43,3 @@ function App() {
   );
 }
 export default App;
-
-
-
-
-
-// For practicing to render 3D data manually
-
-// import React from 'react';
-// // import MedicalImageViewer from './MedicalImageViwer';
-// import VtkViewerr from './VtkViewerr';
-// // import DicomViewer from './DicomViewer';
-
-// function App() {
-//   // Define the DICOM dataset URL or binary data
-//   const dataPath = 'src\\teapot.stl';
-
-//   return (
-//     <div>
-//       <h1>VTK.js 3D Viewer</h1>
-//       <VtkViewerr dataUrl={dataPath} />
-//     </div>
-//   );
-// }
-
-// export default App;
-
