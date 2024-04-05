@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import AppBarTop from "./Components/AppBarTop";
-import Renderer from "./Components/RenderPaper";
+// import Renderer from "./Components/RenderPaper";
 import AppBarBottom from "./Components/AppBarBottom";
 import DataRender from "./Components/DataRender";
 import "./App.css";
